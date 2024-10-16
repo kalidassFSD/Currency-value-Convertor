@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display:flex ;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-color:#675aff;
+    background-image: url('https://img.freepik.com/premium-vector/dollar-coin-money-currency-abstract-technology-background-business-finance-money-exchange-concept_42421-915.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    background-color:#041421;
+    padding: 3rem;
+    border-radius: .5rem;
+    min-height: 45vh;
+    width: 45vh;
+    margin-left: 10vw;;
+}
+h2{
+    text-align: center;
+    color: #3cefff;
+}
+p{
+    margin-bottom: .5rem;
+    color: #3cefff;
+}
+form{
+    margin: 2rem 0  2rem 0;
+}
+form select,button,input{
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color:#041421;
+}
+form input{
+    border: .1rem solid #125482;
+    font-size: large;
+    padding-left:.5rem;
+    height:2rem;
+    color: #1a70a4;
+}
+.drop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.selectContainer img{
+    width:2.5rem;
+}
+.icon{
+    margin-top:1rem;
+    color: #3cefff;
+}
+.selectContainer{
+    display: flex;
+    width: 7rem;
+    border: .1rem solid #125482;
+    align-items: center;
+    justify-content: center;
+}
+.selectContainer select{
+    font-size: medium;
+    padding: .3rem;
+    width: auto;
+    color: #3cefff;
+    overflow-y: auto;
+    bottom: 20;
+}
+.msg{
+    margin: 2rem 0  2rem 0;
+    color: #3cefff;
+    
+}
+.btn{
+    background-color:#125482;
+    height: 3rem;
+    color: rgba(255, 255, 255, 0.781);
+    border-radius: .5rem;
+    font-size: medium;
+    font-weight: 700;
+
+}

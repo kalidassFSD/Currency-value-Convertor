@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+  <link rel="stylesheet" href="currencyConvertor.css">
+ 
+  <title>Document</title>
+</head>
+<body>
+ 
+  <div class="main">
+        <h2>Currency Convertor</h2>
+        <form action="">
+              <div class="amt">
+                <p>Enter Amount</p>
+                <input value="1" type="text">
+              </div>
+              <div class="drop">
+                <div class="from-con">
+                  <p>From</p>
+                  <div class="selectContainer">
+                    <img class=" img" src="https://flagsapi.com/US/flat/64.png">
+                    <select name="from" >
+                      <!-- <option value="IND">IND</option>
+                      <option value="USD">USD</option>
+                      <option value="EUR">EUR</option> -->
+                    </select>
+                  </div>
+                </div>
+                <div class="icon"><iconify-icon icon="uil:exchange" width="1.7rem" height="1.7rem"  ></iconify-icon></div>
+                <div class="to-con">
+                  <p>To</p>
+                  <div class="selectContainer">
+                    <img class=" img" src="https://flagsapi.com/IN/flat/64.png">
+                    <select name="to" >
+                      <!-- <option value="IND">IND</option>
+                      <option value="USD">USD</option>
+                      <option value="EUR">EUR</option> -->
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="msg">1 USD = 84.089388 INR</div>
+              <button class="btn" >Get Exchange Rate</button>
+        </form>
+  </div>
+  <script src="currencyConvertor.js"></script>
+</body>
+</html>
